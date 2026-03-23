@@ -662,7 +662,7 @@ input[readonly]{background:var(--surface3);cursor:not-allowed}
 let residents=JSON.parse(localStorage.getItem('residents')||'[]');
 let meterData=JSON.parse(localStorage.getItem('meterData')||'{}');
 let expenseData=JSON.parse(localStorage.getItem('expenseData')||'{}'); // key=YYYY-MM, value=[{id,type,desc,amount,date,remark}]
-const DEFAULT_SCRIPT_URL='https://script.google.com/macros/s/AKfycbwSE3NOlMCNltuMX1AcLWdHbE36x4RK5m7vU1jZrfadLHR1UJAGmWJJYPGoMjo7FymeAA/exec';
+const DEFAULT_SCRIPT_URL='https://script.google.com/macros/s/AKfycbyPyHTvTRQ3BWahjJoikuN0C4RQ4NhSFc_mUgaYjQyCeV2Vsg58Th6M2c3qYtzl_Vh5Yw/exec';
 let settings=JSON.parse(localStorage.getItem('settings')||JSON.stringify({villageName:'หมู่บ้านปากน้ำ คุ้มนาโพรงเข้',villageAddress:'หมู่ 5 ต.สุขใจ อ.เมือง จ.ตัวอย่าง',villagePhone:'081-234-5678',monthlyFee:0,pricePerUnit:10,minUnits:0,lateFee:50,scriptUrl:DEFAULT_SCRIPT_URL}));
 const MONTHS_TH=['','มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
 let chartU=null,chartI=null;
